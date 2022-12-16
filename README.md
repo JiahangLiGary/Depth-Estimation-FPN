@@ -1,6 +1,6 @@
 # Depth-Estimation-FPN
 
-**Acknowledgement**:
+## Acknowledgement:
 **This project is based on**
 
 Paper: https://arxiv.org/pdf/1406.2283.pdf
