@@ -25,5 +25,7 @@ Reference github 3: https://github.com/haofengac/MonoDepth-FPN-PyTorch
 
 Reference github 4 (adapted parts of the dataloader and training process): https://github.com/wolverinn/Depth-Estimation-PyTorch
 
-## Adapted parts of the code in  github 4
+## Adaption of code
+We tried to build our own dataloader by using the NYUV2 dataset in mat format. But it is hard to combine the depth and img data in dataloader together. So we adapted parts of the dataloader code in github4 to create the NYUV2 dataloader.
+
 
