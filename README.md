@@ -26,11 +26,11 @@ Reference github 3: https://github.com/haofengac/MonoDepth-FPN-PyTorch
 Reference github 4 (adapted parts of the dataloader and training process): https://github.com/wolverinn/Depth-Estimation-PyTorch
 
 ## Adaption of code
-We tried to build our own dataloader by using the NYUV2 dataset in mat format. But it is hard to combine the depth and img data in dataloader together. So we adapted parts of the dataloader code in github4 to create the NYUV2 dataloader.
+We tried to build our own dataloader by using the NYUV2 dataset in mat format. But it is hard to combine the depth and image data in dataloader together. So we adapted parts of the dataloader code in github4 to create the NYUV2 dataloader.
 
 ## Our own work:
 We modified parts of the dataloader so all of our group members have access to the training, evaluating and testing datasets. We can train the model and save it in our shared drive.
-We created our own model. The original model only deals with p2 in feature maps. We did pixel-shuffle to p3, p4, p5 and concatenated them together for convolution in next step. We trained our own model for ten epochs and compared it with the model in github 4(keeping same hyperparameters and same loss function), the loss in our model drops more quickly. 
-We used different loss functions in training and validating process. 
-Used log10 loss and RMSE_log loss function in our test dataset for evaluation. The loss is lower than the baselline methods.
+We created our own model. The original model only deals with p2 in feature maps. We did pixel-shuffle to p3, p4, p5 and concatenated them together for convolution in the next step. We trained our own model for ten epochs and compared it with the model in github 4 (keeping same hyperparameters and same loss function), the loss in our model drops more quickly. 
+We used different loss functions in the training and validating process. 
+Used log10 loss and RMSE_log loss function in our test dataset for evaluation. The loss is lower than the baseline methods.
 
