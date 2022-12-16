@@ -1,6 +1,6 @@
 # Depth-Estimation-FPN
 
-#**Acknowledgement**:
+**Acknowledgement**:
 **This project is based on**
 
 Paper: https://arxiv.org/pdf/1406.2283.pdf
@@ -23,4 +23,4 @@ https://github.com/imran3180/depth-map-prediction
 
 Reference github 3: https://github.com/haofengac/MonoDepth-FPN-PyTorch
 
-Reference github 4 (useful for the NYU datasetloaders): https://github.com/wolverinn/Depth-Estimation-PyTorch
+Reference github 4 (adapted parts of the dataloader and training process): https://github.com/wolverinn/Depth-Estimation-PyTorch
