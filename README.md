@@ -1,4 +1,4 @@
-# Depth-Estimation-FPN
+# Single Image Depth Estimation Using FPN
 
 ## Acknowledgement:
 **This project is based on**
@@ -24,3 +24,6 @@ https://github.com/imran3180/depth-map-prediction
 Reference github 3: https://github.com/haofengac/MonoDepth-FPN-PyTorch
 
 Reference github 4 (adapted parts of the dataloader and training process): https://github.com/wolverinn/Depth-Estimation-PyTorch
+
+## Adapted parts of the code in  github 4
+
