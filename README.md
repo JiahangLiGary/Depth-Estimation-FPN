@@ -25,7 +25,7 @@ Reference github 3 (useful for the NYU datasetloaders): https://github.com/wolve
 
 
 ## Adaption of code
-We tried to build our own dataloader by using the NYUV2 dataset in mat format. But it is hard to combine the depth and image data in dataloader together. So we adapted parts of the dataloader code in github4 to create the NYUV2 dataloader.  
+We tried to build our own dataloader by using the NYUV2 dataset in mat format. But it is hard to combine the depth and image data in dataloader together. So we adapted parts of the dataloader code in github3 to create the NYUV2 dataloader.  
 
 ## Our own work:
 We modified parts of the dataloader so all of our group members have access to the training, evaluating and testing datasets. We can train the model and save it in our shared drive.<br /><br />
