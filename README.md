@@ -19,7 +19,7 @@ Reference github 2:
 https://github.com/imran3180/depth-map-prediction
 
 
-**We adapted portion of code from github 3***
+**We adapted portion of code from github 3**
 
 Reference github 3 (useful for the NYU datasetloaders): https://github.com/wolverinn/Depth-Estimation-PyTorch
 
