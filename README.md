@@ -34,4 +34,4 @@ We used different loss functions in the training and validating process to get o
 Used log10 loss and RMSE_log loss function in our test dataset for evaluation. The loss is lower than the baseline methods.
 
 ## Notification:
-The training epoch in the ipynb file is set to 1, because it is fully trained before. If you want to get a similar output, the training epoch needs to be greater than 10.
+The training epoch in the ipynb file is set to 1, because it is fully trained before. If you want to get a similar output, the training epoch needs to be greater than 10. 
