@@ -11,7 +11,7 @@ We upgraded this paper's architecture with FPN.
 
 <br>
 
-**Reference github 1 and 2 are used for their example of NYU dataset dataloaders.**
+**Reference github 1 and 2 are used for example of baseline models**
 
 Reference github 1: https://github.com/zzzyq/Depth-Map-Prediction-with-Multi-Scale-Deep-network
 
@@ -19,11 +19,10 @@ Reference github 2:
 https://github.com/imran3180/depth-map-prediction
 
 
-**Reference github 3 is for architecture of the estimation network.**
+**We adapted portion of code from github 3***
 
-Reference github 3: https://github.com/haofengac/MonoDepth-FPN-PyTorch
+Reference github 3 (useful for the NYU datasetloaders): https://github.com/wolverinn/Depth-Estimation-PyTorch
 
-Reference github 4 (adapted parts of the dataloader and training process): https://github.com/wolverinn/Depth-Estimation-PyTorch
 
 ## Adaption of code
 We tried to build our own dataloader by using the NYUV2 dataset in mat format. But it is hard to combine the depth and image data in dataloader together. So we adapted parts of the dataloader code in github4 to create the NYUV2 dataloader.  
