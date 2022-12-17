@@ -11,7 +11,7 @@ We upgraded this paper's architecture with FPN.
 
 <br>
 
-**Reference github 1 and 2 are used for example of baseline models**
+**Github 1 and 2 are used for reference of baseline models**
 
 Reference github 1: https://github.com/zzzyq/Depth-Map-Prediction-with-Multi-Scale-Deep-network
 
